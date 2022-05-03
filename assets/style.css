@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    flex-direction: 
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    background-color: #2473f5;
+}
+
+.h1 {
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
