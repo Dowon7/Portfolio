@@ -4,10 +4,10 @@
   
   /* brand color palette */
   :root {
-    --primary: rgb(3, 88, 10);
-    --secondary: rgb(125, 228, 142);
-    --tertiary: rgb(4, 54, 39);
-    --dark: rgb(0, 53, 35);
+    --primary: rgb(#3A6EA5);
+    --secondary: rgb(#FF6700);
+    --tertiary: rgb(#c0c0c0);
+    --dark: rgb(#004E98);
     --light: rgba(238, 238, 247, 1);
   }
   
@@ -47,7 +47,7 @@
   header h1 {
     color: var(--tertiary);
     background-color: var(--secondary);
-    padding: 5px 1% 5px 6%;
+    padding: 5px 1% 5px 2%;
     margin: 0;
     font-size: 4vw;
     line-height: 1;
@@ -57,6 +57,8 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    text-align: right;
+    padding: 30px 1px 5px 0px
   }
   
   nav a {
@@ -88,7 +90,7 @@
   
   .hero-banner {
     background: rgb(68, 88, 120);
-    background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+    background-image: url("./images/stinkie.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
     background-size: cover;
     background-position: center;
     background-blend-mode: soft-light;
@@ -221,23 +223,23 @@
   
   /* portfolio project images */
   .run-buddy {
-    background-image: url("../images/02-run-buddy.jpg");
+    background-image: url("./images/kermboy.jpg");
   }
   
   .led-wall {
-    background-image: url("../images/02-portfolio-1.jpg");
+    background-image: url("./images/02-portfolio-1.jpg");
   }
   
   .react-calc {
-    background-image: url("../images/02-portfolio-2.jpg");
+    background-image: url("./images/02-portfolio-2.jpg");
   }
   
   .pastel-puzzles {
-    background-image: url("../images/02-portfolio-3.jpg");
+    background-image: url("./images/02-portfolio-3.jpg");
   }
   
   .surf-report {
-    background-image: url("../images/02-portfolio-4.jpg");
+    background-image: url("./images/stinkie.jpg");
   }
   
   /* end portfolio project images */
